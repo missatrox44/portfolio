@@ -1,6 +1,5 @@
 /* Universal Selector */
 * {
-    box sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -50,8 +49,11 @@ p {
     margin: 20px;
 }
 
+figure {
+    display: inline-block;
+}
+
 img {
-    flex-wrap: wrap;
     margin: 15px;
 }
 
@@ -78,6 +80,29 @@ footer {
 
 }
 
+.about-me-label {
+    float: left;
+    margin: 0px 20px 300px 20px;
+}
+
+.projects-label {
+    float: left;
+    margin: 0px 20px 300px 20px;
+}
+
+.contact-label {
+    float: left;
+    margin: 0px 20px 300px 20px;
+}
+
+.resume-label {
+    float: left;
+    margin: 0px 20px 300px 20px;
+}
+
+.border-radius {
+    border-radius: 50% 20% / 10% 40%;
+}
 
 /* ID Selectors */
 #about-me {
