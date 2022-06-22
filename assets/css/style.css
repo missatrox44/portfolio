@@ -6,68 +6,101 @@ body {
 }
 
 header {
-    display: flex;
     background-color: darkblue;
+    display: flex;
+    min-height: 110px;
 }
 
 h1 {
+    display: flex;
     justify-content: flex-start;
     background-color: aquamarine;
-    font-size: 80%;
+    font-size: 50px;
+    align-self: center;
+    margin-left: 50px;
 }
 
-a {
+nav {
+    display: flex;
+    align-self: center;
+
+
+}
+
+nav a {
     color: aquamarine;
-    margin: 20px;
-}
-/* header {
-    display: flex;
-    
+    margin: 15px;
 }
 
-nav > ul {
-    display: flex;
-    list-style-type: none;
+p {
+    font-size: 16px;
+    line-height: 25px;
 }
-
-nav > ul > li {
-    margin: 0 1rem;
-}
-
-/* header h1 {
-    justify-content: flext-start;
-}
-
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    font-size: 20px;
-}
-
-
-
-header nav ul li {
-    justify-content: flex-end;
-    flex-direction: row;
-    margin-left: 25px; */
- 
 
 /* Class Selectors */
 .hero {
-    background-image: url(https://images.unsplash.com/photo-1582751836565-74f64cc184cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-    height: 175px;
-    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1549477606-43a329b26066?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
 }
 
 .subtitle {
+    display: flex;
     background-color: aquamarine;
+    justify-content: flex-end;
+    align-self: flex-end;
+    align-content: flex-end;
+}
+
+.title {
+    display: flex;
+    margin-left: 8%;
+    margin-top: 5px;
+    
+}
+
+.blurb {
+    display: flex;
+    margin-bottom: 10px ;
+    margin-left: 25%;
+    font-size: 16px;
+    flex-wrap: wrap;
+
+}
+
+.avatar {
+    display: flex;
     justify-content: flex-end;
 
 }
 
+.avatar img {
+    border-radius: 50% 20% / 10% 40%;
+    margin: 10px;
+}
+
+.thumbnail-long {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.thumbnail {
+    width: 50%;
+    opacity: 0.5;
+}
+
+.contact-link {
+    display: flex;
+    justify-content: space-around;
+}
 
 /* ID Selectors */
-
+#about-me {
+    display: inline-flex;
+    margin-top: 20px;
+}
 
 
 /* Media Queries */
