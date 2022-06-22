@@ -9,21 +9,20 @@ header {
     background-color: darkblue;
     display: flex;
     min-height: 110px;
+    justify-content: space-between;
 }
 
 h1 {
-    display: flex;
-    justify-content: flex-start;
     background-color: aquamarine;
     font-size: 50px;
     align-self: center;
-    margin-left: 50px;
+    padding: 10px 10px 10px 45px;
 }
 
 nav {
     display: flex;
     align-self: center;
-
+    margin-right: 30px;
 
 }
 
@@ -39,19 +38,23 @@ p {
 
 /* Class Selectors */
 .hero {
-    background-image: url(https://images.unsplash.com/photo-1549477606-43a329b26066?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-image: url("../images/jazz-hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 200px;
-}
-
-.subtitle {
+    position: relative;
     display: flex;
-    background-color: aquamarine;
     justify-content: flex-end;
     align-self: flex-end;
     align-content: flex-end;
+}
+
+.subtitle {
+    background-color: aquamarine;
+    position: absolute;
+    margin: 86px;
+    padding: 20px;
 }
 
 .title {
@@ -64,7 +67,7 @@ p {
 .blurb {
     display: flex;
     margin-bottom: 10px ;
-    margin-left: 25%;
+    margin-left: 400px;
     font-size: 16px;
     flex-wrap: wrap;
 
@@ -82,17 +85,20 @@ p {
 }
 
 .thumbnail-long {
+    background-image: url("../images/olivo-florian-unsplash.jpg");
     width: 100%;
-    max-height: 25px;
-    opacity: 0.5;
-    display: flex;
-    flex-wrap: wrap;
-    border: 20px solid aquamarine;
+    height: 200px;
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid aquamarine;
+    
 }
 
 .thumbnail {
     width:  50px;
-    height: 25px;
+    height: 500px;
     opacity: 0.5;
     display: flex;
     flex-wrap: wrap;
