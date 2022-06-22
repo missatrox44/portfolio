@@ -83,12 +83,24 @@ p {
 
 .thumbnail-long {
     width: 100%;
+    max-height: 25px;
     opacity: 0.5;
+    display: flex;
+    flex-wrap: wrap;
+    border: 20px solid aquamarine;
 }
 
 .thumbnail {
-    width: 50%;
+    width:  50px;
+    height: 25px;
     opacity: 0.5;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid aquamarine;
+}
+
+.thumbnail-long:hover {
+    opacity: 1;
 }
 
 .contact-link {
