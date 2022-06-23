@@ -7,16 +7,26 @@ https://missatrox44.github.io/portfolio/
 ---
 ## How it works
 
-* Point 1
-* Point 2
-* Point 3
+* When portfolio is loaded, developer's name, recent photo and links to sections are presented
+* Links in navigation correspond with sections
+* When "Work" is clicked, presented with developer's first application
+* First application image is larger in size than others
+* When images clicked, taken to deployed application
+* When page resized, page is responsive
+
+---
+## Bugs
+
+* Alignment of "Contact Me" section title
+* Alignment of application photos
+* Missing application title previews on images
 
 ---
 
 ## Resources
 
-reset.css file reproduced from UT Austin Bootcamp Curriculum.<br>
-Hero image from unsplash.com
+* reset.css file reproduced from UT Austin Bootcamp Curriculum.<br>
+* Hero image and large work photo from [unsplash.com](https://unsplash.com)
 
 ---
 
@@ -25,18 +35,16 @@ Hero image from unsplash.com
 
 ---
 
-## Collaborators
-Code review by fellow UT Bootcamp peers including: <br>
+## Code Review
+Initial code review by fellow UT Bootcamp peers including: <br>
 [Chelsea Sexton](https://github.com/chelsea314)<br>
-[Brian Lalli](https://github.com/BrianLalli)<br>
- Adam Wagh<br>
- Angel Meza <br>
- [Andrew Edwards](https://github.com/Andrew87E) <br>
- [Jeffrey Littleton](https://github.com/littletonjeffrey)
+Cade Coleman<br>
+Adam Wagh<br>
+[Jeffrey Littleton](https://github.com/littletonjeffrey)
 
 ---
 ## Site Preview 
-![Site Screenshot]()
+![Site Screenshot](./assets/images/working-portfolio-screenshot.png)
 
 ---
 

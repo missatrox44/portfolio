@@ -1,24 +1,19 @@
-:root {
-
-}
-
-
 /* Element Selectors */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lavender;
-    color: darkblue;
+    color: #537CB5;
 }
 
 header {
-    background-color: darkblue;
+    background-color: #537CB5;
     display: flex;
     min-height: 110px;
     justify-content: space-between;
 }
 
 h1 {
-    background-color: aquamarine;
+    background-color: #B2CAD6;
     font-size: 50px;
     align-self: center;
     padding: 10px 10px 10px 45px;
@@ -31,7 +26,7 @@ nav {
 }
 
 nav a {
-    color: aquamarine;
+    color: #B2CAD6;
     margin: 15px;
 }
 
@@ -40,9 +35,21 @@ p {
     line-height: 25px;
 }
 
-h2 {
+.title h2 {
     font-size: 40px;
 
+}
+
+/* .about-me {
+    padding: 100px;
+} */
+
+.work {
+    padding: 16px
+}
+
+.contact-me {
+    margin: 20px;
 }
 
 /* Class Selectors */
@@ -57,19 +64,20 @@ h2 {
 }
 
 .subtitle {
-    background-color: aquamarine;
+    background-color: #B2CAD6;
     position: absolute;
     margin: 86px;
     padding: 20px;
 }
 
 .title {
-    display: inline-flex;
+    display: flex;
     margin-left: 50px;
     margin-top: 5px;
     text-align: right;
-    border-right: 8px solid blue;
+    border-right: 8px solid #537CB5;
     padding-right: 35px;
+    max-width: 140px;
     
 }
 
@@ -93,8 +101,29 @@ h2 {
     height: 289px;
     width: 200px;
 }
+.showcase-work-card {
+    
+    
+}
 
-.work-cards {
+.show-case-image {
+    display: flex;
+    height: 300px;
+
+
+}
+
+
+.thumbnail-long {
+    opacity: 0.75;
+    border: 3px solid #B2CAD6;
+    margin: 5px;
+    justify-content: center;
+   
+    
+}
+
+.work-cards-main {
     display: flex;
     width: 95%;
     margin: 0 auto;
@@ -102,20 +131,10 @@ h2 {
     justify-content: center;
 }
 
-/* .thumbnail-long {
-    height: 300px;
-    width: 900px;
-    justify-content: flex-start;
-    opacity: 0.75;
-    border: 5px solid aquamarine;
-    flex-wrap: wrap;
-    
-} */
-
 .thumbnail {
     display: block;
     opacity: 0.75;
-    border: 3px solid aquamarine;
+    border: 3px solid #B2CAD6;
     flex-basis: 100%;
     margin: 5px;
     
@@ -129,10 +148,14 @@ h2 {
     opacity: 1;
 }
 
-.contact-link {
+.contact-link-box {
     display: flex;
-    justify-content: space-around;
+    align-items: flex-end;
 }
+
+.contact-link {
+    margin: 30px;
+    }
 
 /* ID Selectors */
 #about-me {
@@ -171,5 +194,8 @@ h2 {
         flex-basis: 50%
     }
 
+    nav a {
+        flex-direction: column;
+    }
 }
     
