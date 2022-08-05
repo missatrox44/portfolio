@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "## Description This portfolio was created to showcase Sara Baqla's past, current and upcoming projects. This portfolio also gives the user an insight into who Sara is and her background.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missatrox44/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missatrox44/portfolio/issues"
+  },
+  "homepage": "https://github.com/missatrox44/portfolio#readme"
+}
