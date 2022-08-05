@@ -1,5 +1,7 @@
 # Sara Baqla's Portfolio
 
+## [Deployed Website](https://missatrox44.github.io/portfolio/)
+
 ## Description
 This portfolio was created to showcase Sara Baqla's past, current and upcoming projects. This portfolio also gives the user an insight into who Sara is and her background.
 
