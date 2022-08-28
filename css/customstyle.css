@@ -2,6 +2,9 @@
     text-decoration: none;
 }
 
+.custom-card {
+    display: inline-block;
+}
 
 /* Element Selectors
 body {
