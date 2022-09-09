@@ -7,6 +7,9 @@
     margin-bottom: 2rem;
 }
 
+.screenshot {
+    margin-top: 12px;
+}
 /* Element Selectors
 body {
     font-family: Arial, Helvetica, sans-serif;
