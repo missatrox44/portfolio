@@ -14,3 +14,30 @@
 .certificate{
     border: solid #bd5d38 2px;
 }
+
+
+.new-site-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999; /* Keep it on top */
+    background-color: #0a9b8c; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+
+.new-site-banner a {
+    color: #ffffff; 
+    text-decoration: underline;
+}
+
+.new-site-banner {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar {
+    top: 40px; 
+}
